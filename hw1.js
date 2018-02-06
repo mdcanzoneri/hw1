@@ -24,14 +24,4 @@ let weatherData = {
   ]
 }
 
-// let currentTemp = weatherData.current.temperature;
-// let currentCond = weatherData.current.conditions.toLowerCase();
-// let tommTemp = weatherData.forecast[0].temperature;
-// let tommCond = weatherData.forecast[0].conditions.toLowerCase();
-// let afterTommTemp = weatherData.forecast[1].temperature;
-// let afterTommCond = weatherData.forecast[1].conditions.toLowerCase();
-
-// console.log("Currently it is " + currentTemp + " degrees and " + currentCond + "." + " Tomorrow it will be " + tommTemp + " and " + tommCond + "." + " The next day we will see " + afterTommCond + " skies, with a temperature of " + afterTommTemp + ".");
-// console.log("Tomorrow it will be " + tommTemp + " and " + tommCond + ".");
-// console.log("The next day we will see " + afterTommCond + " skies, with a temperature of " + afterTommTemp + ".");
 console.log("Currently it is " + weatherData.current.temperature + " degrees and " + weatherData.current.conditions + "." + " Tomorrow it will be " + weatherData.forecast[0].temperature + " degrees and " + weatherData.forecast[0].conditions + "." + " The next day we will see " + weatherData.forecast[1].conditions + " skies, with a temperature of " + weatherData.forecast[1].temperature + " degrees.");
